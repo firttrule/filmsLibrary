@@ -3,7 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Посмотреть</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="/index.html">Посмотреть</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="/html/Viewed.html">Просмотренные</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="/html/Favorites.html">Избранное</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <h1 class="page-title">Посмотреть</h1>
+
+      <section>
+        <!-- TODO: поиск/сортировка по жанру и добавление -->
+      </section>
+
+      <section class="container look">
+        <ol class="look__list">
+          <li class="look__list-item">
+            <p class="look__list-title">Название</p>
+            <p class="look__list-genre">Жанр</p>
+            <div>
+              <button class="look__list-btn btn-favorite">В избранное</button>
+              <button class="look__list-btn btn-delete">Удалить</button>
+            </div>
+          </li>
+          <li class="look__list-item">
+            <p class="look__list-title">Название</p>
+            <p class="look__list-genre">Жанр</p>
+            <div>
+              <button class="look__list-btn btn-favorite">В избранное</button>
+              <button class="look__list-btn btn-delete">Удалить</button>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
