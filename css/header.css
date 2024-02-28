@@ -1,0 +1,18 @@
+.header {
+  background-color: #e6e6e6;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__nav-item {
+  /* width: 100%; */
+}
+
+.header__nav-link {
+  font-size: 24px;
+  padding: 10px 40px;
+  display: inline-block;
+}
