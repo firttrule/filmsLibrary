@@ -7,12 +7,13 @@
   justify-content: space-around;
 }
 
-.header__nav-item {
-  /* width: 100%; */
-}
-
 .header__nav-link {
   font-size: 24px;
-  padding: 10px 40px;
+  padding: 16px 40px;
   display: inline-block;
+  color: inherit;
+}
+
+.header__nav-link:hover {
+  text-decoration: underline;
 }
