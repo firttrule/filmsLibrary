@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Посмотреть</title>
     <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -13,10 +17,10 @@
           <a class="header__nav-link" href="/index.html">Посмотреть</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link" href="/html/Viewed.html">Просмотренные</a>
+          <a class="header__nav-link" href="/html/viewed.html">Просмотренные</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link" href="/html/Favorites.html">Избранное</a>
+          <a class="header__nav-link" href="/html/favorites.html">Избранное</a>
         </li>
       </ul>
     </header>
@@ -26,26 +30,46 @@
         TODO: поиск/сортировка по жанру и добавление
       </section> -->
 
-      <div class="container look">
+      <div class="container">
         <h1 class="page-title">Посмотреть</h1>
-        <ol class="look__list">
-          <li class="look__list-item">
-            <p class="look__list-title">Название</p>
-            <p class="look__list-genre">Жанр</p>
-            <div>
-              <button class="look__list-btn btn-favorite">В избранное</button>
-              <button class="look__list-btn btn-delete">Удалить</button>
-            </div>
-          </li>
-          <li class="look__list-item">
-            <p class="look__list-title">Название</p>
-            <p class="look__list-genre">Жанр</p>
-            <div>
-              <button class="look__list-btn btn-favorite">В избранное</button>
-              <button class="look__list-btn btn-delete">Удалить</button>
-            </div>
-          </li>
-        </ol>
+        <div class="films">
+          <ol class="films__list">
+            <li class="films__list-item">
+              <div class="films__list-content">
+                <p class="films__list-title">Название</p>
+                <p class="films__list-genre">Жанр</p>
+                <div class="films__btns">
+                  <button class="films__list-btn btn-done">
+                    <i class="material-icons">done</i>
+                  </button>
+                  <button class="films__list-btn btn-favorite">
+                    <i class="material-icons">favorite_border</i>
+                  </button>
+                  <button class="films__list-btn btn-delete">
+                    <i class="material-icons">clear</i>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="films__list-item">
+              <div class="films__list-content">
+                <p class="films__list-title">Название</p>
+                <p class="films__list-genre">Жанр</p>
+                <div class="films__btns">
+                  <button class="films__list-btn btn-done">
+                    <i class="material-icons">done</i>
+                  </button>
+                  <button class="films__list-btn btn-favorite">
+                    <i class="material-icons">favorite_border</i>
+                  </button>
+                  <button class="films__list-btn btn-delete">
+                    <i class="material-icons">clear</i>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
       </div>
     </main>
   </body>

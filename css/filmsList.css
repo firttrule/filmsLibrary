@@ -1,0 +1,23 @@
+.films {
+}
+
+.films__list-item {
+  padding-bottom: 10px;
+}
+
+.films__list-item:last-child {
+  padding-bottom: 0;
+}
+
+.films__list-content {
+  display: flex;
+  gap: 30px;
+}
+
+.films__list-btn {
+  padding-right: 30px;
+}
+
+.films__list-btn:last-child {
+  padding-right: 0;
+}
